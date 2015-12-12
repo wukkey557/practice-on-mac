@@ -32,6 +32,20 @@ scanf的所有参数都在函数被调用前已经求好值了
 
 ------------------------
 
-勿用gets()
+勿用gets(),用fgets
 
+------------------------
+
+switch case 掉下时应写注释: case '1': 
+						  	xxx;
+						  	/*fall through*/
+						  case '2': 
+						  	xxx; 
+						  	break;
+
+这种情况不用写注释: 	case '1':
+				 	case '2':
+				 	case '3': 
+				 		xxx;
+				 		break;
 ------------------------
