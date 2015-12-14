@@ -22,9 +22,27 @@ int seqSum1(int seq[], int N) {
 	return sumMax;
 }
 
+// 时间复杂度: O(n^2)
+int seqSum2(int seq[], int N) {
+	int i, j;
+	int sumMax = 0;
+	for (i = 0; i < N; i++) {
+		int sumNow = 0;
+		for (j = i; j < N; j++) {
+			sumNow += seq[j];
+			if (sumNow > sumMax) 
+				sumMax = sumNow;
+		}
+	}
+
+	return sumMax;
+}
+
+
+
 int main() {
 	int array[] = {2, 3, -1, 8, -1};
-	int sum = seqSum1(array, 5);
+	int sum = seqSum2(array, 5);
 
 	printf("max sum is %d\n", sum);
 

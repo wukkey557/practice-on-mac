@@ -32,16 +32,17 @@ c++:
 	图解tcp/ip
 
 操作系统:
-	(1.1)中南大学操作系统原理: http://www.icourses.cn/jpk/viewCharacterDetail.action?courseId=3743&characId=15962
+	哈工大视频: http://study.163.com/curricula/cs.htm
 	os入门: http://c.biancheng.net/cpp/u/xitong/
 	socket入门: http://c.biancheng.net/cpp/socket/
 	unix环境高级编程
 
 编译原理:
+	中科大编译原理: http://mooc.study.163.com/learn/USTC-1000002001?tid=1000003000#/learn/content
 	编译原理
 
 图形学 || game related:
-	入门: thu课件
+	入门: http://study.163.com/plan/planMain.htm?id=1218006
 	3d数学基础
 	游戏中的数学和物理
 	opengl es programming guide
@@ -54,6 +55,7 @@ c++:
 
 风格与实践:
 	程序设计实践
+	7 labs: https://www.shiyanlou.com/courses/122
 
 线代:
 	mooc山东大学典型题分析: http://www.icourse163.org/learn/sdu-400003?tid=466003#/learn/content
